@@ -1,0 +1,19 @@
+h1{
+    text-shadow: 3px 3px 3px pink; /* single shadow */
+    text-shadow: 3px 3px 3px red, 5px 5px 5px blue; /* multiple shadow */ 
+}
+
+.box{
+    background-color: lightseagreen;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 5px grey, -5px -5px 20px lightsalmon;
+}
+
+.border-using-shadows{
+    text-align:center;
+    padding-top: 125px;
+    width: 250px;
+    height:125px;
+    box-shadow: 0 0 0 1px black;
+}
